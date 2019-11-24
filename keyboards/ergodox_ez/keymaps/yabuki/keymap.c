@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                        | ESC  |全/半 |       | INS  |  DEL   |
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | Home |       | PgUp |        |      |
- *                                 | Space|Backsp|------|       |------|  Tab   |Enter |
+ *                                 | Space|Backsp|------|       |------| RCtrl  |Enter |
  *                                 |      |ace   | End  |       | PgDn |        |      |
  *                                 `--------------------'       `----------------------'
  */
@@ -64,7 +64,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                            KC_HENK, KC_RALT, JA_LBRC,    JA_RBRC,           JA_ENVL,
   KC_INS,  KC_DEL,
   KC_PGUP,
-  KC_PGDN, KC_TAB, KC_ENT
+  KC_PGDN, KC_RCTR,KC_ENT
 ),
 /* Keymap 1: Symbol Layer
  *
