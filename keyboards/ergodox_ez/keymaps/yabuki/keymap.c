@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------|      |           |      |------+------+------+------+------+--------|
  * | LCtrl  |   A  |   S  |   D  |   F  |   G  |------|           |------|   H  |   J  |   K  |   L  |  ;+  |  :*    |
  * |--------+------+------+------+------+------| ESC  |           | RIGHT|------+------+------+------+------+--------|
- * | LShift |   Z  |   X  |   C  |   V  |   B  |      |           | SHIFT|   N  |   M  |   ,  |   .  |//Ctrl| \_     |
+ * | LShift |   Z  |   X  |   C  |   V  |   B  |      |           | SHIFT|   N  |   M  |   ,  |   .  |  /   | \_     |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
  *   |MO(L1)|MO(L2)| WIN  | Alt  |無変換|                                       | 変換 | Alt  |   [  |   ]  | \|   |
  *   `----------------------------------'                                       `----------------------------------'
@@ -60,11 +60,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_RGHT,        KC_6,    KC_7,    KC_8,    KC_9,       KC_0,              KC_MINS,
   TG(MDIA),       KC_Y,    KC_U,    KC_I,    KC_O,       KC_P,              JA_AT,
                   KC_H,    KC_J,    KC_K,    KC_L,       KC_SCLN,           JA_CLON,
-  KC_RSFT,        KC_N,    KC_M,    KC_COMM, KC_DOT,     CTL_T(KC_SLSH),    JA_ENUN,
+  KC_RSFT,        KC_N,    KC_M,    KC_COMM, KC_DOT,     KC_SLSH,           JA_ENUN,
                            KC_HENK, KC_RALT, JA_LBRC,    JA_RBRC,           JA_ENVL,
   KC_INS,  KC_DEL,
   KC_PGUP,
-  KC_PGDN, KC_RCTR,KC_ENT
+  KC_PGDN, KC_RCTL,KC_ENT
 ),
 /* Keymap 1: Symbol Layer
  *
